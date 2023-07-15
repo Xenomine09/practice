@@ -1,0 +1,22 @@
+// const container = document.querySelector(".js-prodlist");
+
+// console.log(container)
+
+// function createMarkup(instruments) {  // деструктуризация
+//     const items = instruments.map(({id, img, name, price}) => {
+//         const li = document.createElement("li");
+//         const image = document.createElement("img");
+//         const h2 = document.createElement("h2");
+//         const h3 = document.createElement("h3");
+//         image.src = img;
+//         image.alt = name;
+//         image.width = 300
+//         h2.textContent = name;
+//         h3.textContent = price;
+//         li.setAttribute("data-id", id);
+//         li.append(image, h2, h3)
+//         return li;
+//     })
+//     container.append(...items)
+// }
+// createMarkup(instruments);
